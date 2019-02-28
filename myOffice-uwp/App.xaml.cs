@@ -26,7 +26,7 @@ namespace myOffice_uwp
             InitializeComponent();
 
             // TODO WTS: Add your app in the app center and set your secret here. More at https://docs.microsoft.com/en-us/appcenter/sdk/getting-started/uwp
-            AppCenter.Start("f66f93c9-fe78-4aba-97e0-a33e3feb5ec9", typeof(Analytics), typeof(Crashes), typeof(Push));
+            AppCenter.Start("85208f44-997a-495f-ad92-a65dd756c8b1", typeof(Analytics), typeof(Crashes), typeof(Push));
 
             // Deferred execution until used. Check https://msdn.microsoft.com/library/dd642331(v=vs.110).aspx for further info on Lazy<T> class.
             _activationService = new Lazy<ActivationService>(CreateActivationService);
